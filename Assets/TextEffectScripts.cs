@@ -100,6 +100,10 @@ public class TextEffectScripts : MonoBehaviour
                     textStaus = 0;
                     thisTextBefore = targetText.text;
                     textIndex++;
+                    if (randomTimes == 0)
+                    {
+                        yield return new WaitForSeconds(randomTextPerTime);
+                    }   
                 }
                 else
                 {
