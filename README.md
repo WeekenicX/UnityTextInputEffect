@@ -1,6 +1,10 @@
 # UnityTextEInputEffect
 A Unity Text Effect Script
 
+How to use:Give this script to Text gameobject；
+
+使用方法:只需要将脚本挂至Text对象即可
+
 
 
 ![eng](https://user-images.githubusercontent.com/98207975/174997525-448efbdf-5ade-4844-b674-330287a8695c.gif)
@@ -8,7 +12,6 @@ A Unity Text Effect Script
 
 
 Explanation of some parameters
-
 
 InputLineStatus--If this option is turned on, the input symbol will blink
 
